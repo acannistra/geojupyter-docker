@@ -1,0 +1,10 @@
+name: geo-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - geopandas
+  - cartopy
+  - geoviews
+  - jupyter
+  - jupyterlab 
