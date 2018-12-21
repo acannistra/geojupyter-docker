@@ -16,6 +16,8 @@ RUN apt-get -qq update && apt-get -qq -y install curl bzip2 \
     && conda env create -f /tmp/geo-env-base.yml \
     && conda clean --all --yes
 
+RUN echo "source activate geo-env" > ~/.bashrc
+ENV PATH /opt/conda/envs/env/bin:$PATH
 
 EXPOSE 8888
 

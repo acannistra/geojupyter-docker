@@ -7,4 +7,5 @@ dependencies:
   - cartopy
   - geoviews
   - jupyter
-  - jupyterlab 
+  - jupyterlab
+  - rasterio 
